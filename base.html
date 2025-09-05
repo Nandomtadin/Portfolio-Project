@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navigation-->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="Hero"></a>Home</li>
+                <li><a href="About"></a>About</li>
+                <li><a href="Project"></a>Project</li>
+                <li><a href="Contact"></a>contact</li>
+            </ul>
+        </nav> 
+    </header>
+
+    <!--Hero Section-->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1> Hello i'm <span class="highlight">Oboz</span></h1>
+            <p>Aspiring web Decelopment | Creative Thinker | Problem solver</p>
+            <button id="exploration">Explore My Work</button>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about" class="about"> 
+        <h3>About Me</h3>
+        <div class="about-content">
+            <img src="https://picsum.photos/200" alt="My Photos">
+            <p><em>
+                 Hi im a passionate learner in the world of web development and programing in Alice
+                I enjoy creating buetiful,functionalwebsites and experiment with new ideas
+                This portfolio showcases my journey and project as i grow into a proffesional developer as well a Programer
+            </em></p>
+        </div>
+    </section>
+     
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>A portfolio website</h3>
+                <p>A clean porfolio website built with HTML, CSS amd javascript</p>
+            </div>
+            <div class="project-card">
+                <h3>Javascript Game</h3>
+                <p>A fun interactive game coded in vanilla javascript</p>
+            </div>
+            <div class="project-card">
+                <h3>Interactive Story</h3>
+                <p>A choose your own adventure using HTML + JS</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact" class="contact">
+        <h2>Contact me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email Adress" required>
+            <textarea id="Message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p class="status"></p>
+    </section>
+
+
+    <!--footer--> 
+    <footer>
+        <p>&copy; 2025 My Portfolio | Built With 💌 using HTML,CSS,&JS</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+  
